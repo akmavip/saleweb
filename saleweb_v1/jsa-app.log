@@ -1,0 +1,541 @@
+2022-07-30 11:53:52.804  INFO 11836 --- [main] com.tttn.saleweb.SalewebApplication      : Starting SalewebApplication using Java 1.8.0_45 on DESKTOP with PID 11836 (C:\Users\Administrator\Desktop\saleweb_v1\target\classes started by Administrator in C:\Users\Administrator\Desktop\saleweb_v1)
+2022-07-30 11:53:52.820  INFO 11836 --- [main] com.tttn.saleweb.SalewebApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 11:53:53.773  INFO 11836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-30 11:53:53.805  INFO 11836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2022-07-30 11:53:54.493  INFO 11836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-30 11:53:54.508  INFO 11836 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 11:53:54.508  INFO 11836 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-30 11:53:55.072  INFO 11836 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-30 11:53:55.072  INFO 11836 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 11:53:55.072  INFO 11836 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2189 ms
+2022-07-30 11:53:55.369  INFO 11836 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-30 11:53:55.728  INFO 11836 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-30 11:53:56.041  WARN 11836 --- [main] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:53:56.072  INFO 11836 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect
+2022-07-30 11:53:56.947  INFO 11836 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-30 11:53:57.322  INFO 11836 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-07-30 11:53:57.541  INFO 11836 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-30 11:53:58.245  INFO 11836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-30 11:53:58.260  INFO 11836 --- [main] com.tttn.saleweb.SalewebApplication      : Started SalewebApplication in 6.226 seconds (JVM running for 7.446)
+2022-07-30 11:54:01.162  INFO 11836 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-30 11:54:01.162  INFO 11836 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-30 11:54:01.164  INFO 11836 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-30 11:54:04.373  WARN 11836 --- [http-nio-8080-exec-4] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:04.603  WARN 11836 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:54:04.604  WARN 11836 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:05.019  WARN 11836 --- [http-nio-8080-exec-4] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:05.038  WARN 11836 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:54:05.038  WARN 11836 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:07.558  WARN 11836 --- [http-nio-8080-exec-8] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:07.568  WARN 11836 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:54:07.568  WARN 11836 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:08.769  WARN 11836 --- [http-nio-8080-exec-5] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:08.803  WARN 11836 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:54:08.804  WARN 11836 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:08.832  WARN 11836 --- [http-nio-8080-exec-6] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:08.842  WARN 11836 --- [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:54:08.843  WARN 11836 --- [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:08.857  WARN 11836 --- [http-nio-8080-exec-6] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:08.866  WARN 11836 --- [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:54:08.866  WARN 11836 --- [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:13.485  WARN 11836 --- [http-nio-8080-exec-3] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:13.495  WARN 11836 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:54:13.495  WARN 11836 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:13.512  WARN 11836 --- [http-nio-8080-exec-3] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:13.520  WARN 11836 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:54:13.520  WARN 11836 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:16.033  WARN 11836 --- [http-nio-8080-exec-7] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:16.042  WARN 11836 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:54:16.043  WARN 11836 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:22.804  WARN 11836 --- [http-nio-8080-exec-1] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:22.814  WARN 11836 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:54:22.814  WARN 11836 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:22.831  WARN 11836 --- [http-nio-8080-exec-2] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:22.839  WARN 11836 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:54:22.839  WARN 11836 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:22.854  WARN 11836 --- [http-nio-8080-exec-2] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:22.861  WARN 11836 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:54:22.861  WARN 11836 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:27.017  WARN 11836 --- [http-nio-8080-exec-4] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:27.025  WARN 11836 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:54:27.025  WARN 11836 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:27.038  WARN 11836 --- [http-nio-8080-exec-4] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:27.044  WARN 11836 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:54:27.044  WARN 11836 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:29.014  WARN 11836 --- [http-nio-8080-exec-8] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:29.021  WARN 11836 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:54:29.021  WARN 11836 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:39.246  WARN 11836 --- [http-nio-8080-exec-5] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:39.252  WARN 11836 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:54:39.253  WARN 11836 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:54.311  WARN 11836 --- [http-nio-8080-exec-6] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:54:54.319  WARN 11836 --- [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:54:54.319  WARN 11836 --- [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:55:04.222  WARN 11836 --- [http-nio-8080-exec-10] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:55:04.230  WARN 11836 --- [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:55:04.230  WARN 11836 --- [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:55:33.499  WARN 11836 --- [http-nio-8080-exec-8] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:55:33.509  WARN 11836 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:55:33.509  WARN 11836 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:55:33.523  WARN 11836 --- [http-nio-8080-exec-8] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:55:33.529  WARN 11836 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:55:33.530  WARN 11836 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:55:34.853  WARN 11836 --- [http-nio-8080-exec-5] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 11:55:34.860  WARN 11836 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 11:55:34.860  WARN 11836 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:16:12.531  INFO 11836 --- [SpringApplicationShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-07-30 12:20:52.488  INFO 3000 --- [main] com.tttn.saleweb.SalewebApplication      : Starting SalewebApplication using Java 1.8.0_45 on DESKTOP with PID 3000 (C:\Users\Administrator\Desktop\saleweb_v1\target\classes started by Administrator in C:\Users\Administrator\Desktop\saleweb_v1)
+2022-07-30 12:20:52.492  INFO 3000 --- [main] com.tttn.saleweb.SalewebApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 12:20:53.522  INFO 3000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-30 12:20:53.560  INFO 3000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 0 JPA repository interfaces.
+2022-07-30 12:20:54.105  INFO 3000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-30 12:20:54.122  INFO 3000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 12:20:54.122  INFO 3000 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-30 12:20:54.616  INFO 3000 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-30 12:20:54.623  INFO 3000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 12:20:54.623  INFO 3000 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2067 ms
+2022-07-30 12:20:54.885  INFO 3000 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-30 12:20:55.170  INFO 3000 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-30 12:20:55.418  WARN 3000 --- [main] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:20:55.447  INFO 3000 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect
+2022-07-30 12:20:56.225  INFO 3000 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-30 12:20:56.565  INFO 3000 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-07-30 12:20:56.778  INFO 3000 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-30 12:20:57.360  INFO 3000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-30 12:20:57.372  INFO 3000 --- [main] com.tttn.saleweb.SalewebApplication      : Started SalewebApplication in 5.607 seconds (JVM running for 6.611)
+2022-07-30 12:21:05.674  INFO 3000 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-30 12:21:05.674  INFO 3000 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-30 12:21:05.675  INFO 3000 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-30 12:21:08.356  WARN 3000 --- [http-nio-8080-exec-2] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:08.561  WARN 3000 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:21:08.561  WARN 3000 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:08.984  WARN 3000 --- [http-nio-8080-exec-2] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:09.002  WARN 3000 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:21:09.002  WARN 3000 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:12.965  WARN 3000 --- [http-nio-8080-exec-4] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:12.976  WARN 3000 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:21:12.977  WARN 3000 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:14.498  WARN 3000 --- [http-nio-8080-exec-5] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:14.528  WARN 3000 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:21:14.528  WARN 3000 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:14.561  WARN 3000 --- [http-nio-8080-exec-6] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:14.572  WARN 3000 --- [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:21:14.572  WARN 3000 --- [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:14.592  WARN 3000 --- [http-nio-8080-exec-6] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:14.602  WARN 3000 --- [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:21:14.602  WARN 3000 --- [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:19.495  WARN 3000 --- [http-nio-8080-exec-7] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:19.507  WARN 3000 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:21:19.508  WARN 3000 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:20.530  WARN 3000 --- [http-nio-8080-exec-8] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:20.541  WARN 3000 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:21:20.541  WARN 3000 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:22.502  WARN 3000 --- [http-nio-8080-exec-9] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:22.512  WARN 3000 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:21:22.512  WARN 3000 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:26.581  WARN 3000 --- [http-nio-8080-exec-10] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:26.593  WARN 3000 --- [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:21:26.593  WARN 3000 --- [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:26.877  WARN 3000 --- [http-nio-8080-exec-10] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:21:26.885  WARN 3000 --- [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:21:26.885  WARN 3000 --- [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:22:01.706  WARN 3000 --- [http-nio-8080-exec-1] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:22:01.713  WARN 3000 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:22:01.713  WARN 3000 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:22:01.779  INFO 3000 --- [http-nio-8080-exec-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2022-07-30 12:22:01.817  INFO 3000 --- [http-nio-8080-exec-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#3030836d:0/SimpleConnection@4dec8622 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 51892]
+2022-07-30 12:22:01.837  INFO 3000 --- [http-nio-8080-exec-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (saleweb) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-30 12:22:01.864 ERROR 3000 --- [AMQP Connection 127.0.0.1:5672] o.s.a.r.c.CachingConnectionFactory       : Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'saleweb' in vhost '/': received 'false' but current is 'true', class-id=50, method-id=10)
+2022-07-30 12:22:02.875  INFO 3000 --- [http-nio-8080-exec-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (saleweb) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-30 12:22:02.877 ERROR 3000 --- [AMQP Connection 127.0.0.1:5672] o.s.a.r.c.CachingConnectionFactory       : Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'saleweb' in vhost '/': received 'false' but current is 'true', class-id=50, method-id=10)
+2022-07-30 12:22:04.888  INFO 3000 --- [http-nio-8080-exec-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (saleweb) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-30 12:22:04.890 ERROR 3000 --- [AMQP Connection 127.0.0.1:5672] o.s.a.r.c.CachingConnectionFactory       : Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'saleweb' in vhost '/': received 'false' but current is 'true', class-id=50, method-id=10)
+2022-07-30 12:22:08.895  INFO 3000 --- [http-nio-8080-exec-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (saleweb) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-30 12:22:08.897 ERROR 3000 --- [AMQP Connection 127.0.0.1:5672] o.s.a.r.c.CachingConnectionFactory       : Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'saleweb' in vhost '/': received 'false' but current is 'true', class-id=50, method-id=10)
+2022-07-30 12:22:13.903  INFO 3000 --- [http-nio-8080-exec-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (saleweb) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-30 12:22:13.905 ERROR 3000 --- [AMQP Connection 127.0.0.1:5672] o.s.a.r.c.CachingConnectionFactory       : Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'saleweb' in vhost '/': received 'false' but current is 'true', class-id=50, method-id=10)
+2022-07-30 12:22:13.922 ERROR 3000 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.amqp.AmqpIOException: java.io.IOException] with root cause
+
+com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'saleweb' in vhost '/': received 'false' but current is 'true', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:517) ~[amqp-client-5.14.2.jar:5.14.2]
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:341) ~[amqp-client-5.14.2.jar:5.14.2]
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:182) ~[amqp-client-5.14.2.jar:5.14.2]
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:114) ~[amqp-client-5.14.2.jar:5.14.2]
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:739) ~[amqp-client-5.14.2.jar:5.14.2]
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:47) ~[amqp-client-5.14.2.jar:5.14.2]
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:666) ~[amqp-client-5.14.2.jar:5.14.2]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+
+2022-07-30 12:30:27.135  INFO 3000 --- [SpringApplicationShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-07-30 12:30:32.314  INFO 9988 --- [main] com.tttn.saleweb.SalewebApplication      : Starting SalewebApplication using Java 1.8.0_45 on DESKTOP with PID 9988 (C:\Users\Administrator\Desktop\saleweb_v1\target\classes started by Administrator in C:\Users\Administrator\Desktop\saleweb_v1)
+2022-07-30 12:30:32.318  INFO 9988 --- [main] com.tttn.saleweb.SalewebApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 12:30:33.066  INFO 9988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-30 12:30:33.093  INFO 9988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2022-07-30 12:30:33.607  INFO 9988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-30 12:30:33.616  INFO 9988 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 12:30:33.616  INFO 9988 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-30 12:30:34.097  INFO 9988 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-30 12:30:34.105  INFO 9988 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 12:30:34.106  INFO 9988 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1733 ms
+2022-07-30 12:30:34.414  INFO 9988 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-30 12:30:34.732  INFO 9988 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-30 12:30:35.020  WARN 9988 --- [main] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:30:35.054  INFO 9988 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect
+2022-07-30 12:30:36.044  INFO 9988 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-30 12:30:36.447  INFO 9988 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-07-30 12:30:36.676  INFO 9988 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-30 12:30:37.353  INFO 9988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-30 12:30:37.365  INFO 9988 --- [main] com.tttn.saleweb.SalewebApplication      : Started SalewebApplication in 5.689 seconds (JVM running for 6.63)
+2022-07-30 12:35:53.836  INFO 9988 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-30 12:35:53.837  INFO 9988 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-30 12:35:53.838  INFO 9988 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-30 12:35:58.486  WARN 9988 --- [http-nio-8080-exec-3] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:35:58.685  WARN 9988 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:35:58.685  WARN 9988 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:35:59.101  WARN 9988 --- [http-nio-8080-exec-3] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:35:59.123  WARN 9988 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:35:59.123  WARN 9988 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:36:01.428  WARN 9988 --- [http-nio-8080-exec-4] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:36:01.439  WARN 9988 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:36:01.439  WARN 9988 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:37:06.519  WARN 9988 --- [http-nio-8080-exec-7] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:37:06.542  WARN 9988 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:37:06.542  WARN 9988 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:37:06.559  WARN 9988 --- [http-nio-8080-exec-7] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:37:06.570  WARN 9988 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:37:06.570  WARN 9988 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:37:12.193  WARN 9988 --- [http-nio-8080-exec-8] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:37:12.198  WARN 9988 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:37:12.198  WARN 9988 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:37:12.217  WARN 9988 --- [http-nio-8080-exec-8] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:37:12.227  WARN 9988 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:37:12.228  WARN 9988 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:37:21.722  WARN 9988 --- [http-nio-8080-exec-9] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:37:21.727  WARN 9988 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:37:21.728  WARN 9988 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:37:21.745  WARN 9988 --- [http-nio-8080-exec-9] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:37:21.757  WARN 9988 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:37:21.757  WARN 9988 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:39:14.425  WARN 9988 --- [http-nio-8080-exec-3] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:39:14.434  WARN 9988 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:39:14.434  WARN 9988 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:39:14.449  WARN 9988 --- [http-nio-8080-exec-3] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:39:14.459  WARN 9988 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:39:14.459  WARN 9988 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:40:57.289  INFO 9988 --- [SpringApplicationShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-07-30 12:41:25.195  INFO 12508 --- [main] com.tttn.saleweb.SalewebApplication      : Starting SalewebApplication using Java 1.8.0_45 on DESKTOP with PID 12508 (C:\Users\Administrator\Desktop\saleweb_v1\target\classes started by Administrator in C:\Users\Administrator\Desktop\saleweb_v1)
+2022-07-30 12:41:25.199  INFO 12508 --- [main] com.tttn.saleweb.SalewebApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 12:41:25.885  INFO 12508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-30 12:41:25.913  INFO 12508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 JPA repository interfaces.
+2022-07-30 12:41:26.437  INFO 12508 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-30 12:41:26.446  INFO 12508 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 12:41:26.447  INFO 12508 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-30 12:41:26.951  INFO 12508 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-30 12:41:26.958  INFO 12508 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 12:41:26.959  INFO 12508 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1707 ms
+2022-07-30 12:41:27.243  INFO 12508 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-30 12:41:27.505  INFO 12508 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-30 12:41:27.750  WARN 12508 --- [main] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:41:27.781  INFO 12508 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect
+2022-07-30 12:41:28.552  INFO 12508 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-30 12:41:28.894  INFO 12508 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-07-30 12:41:29.133  INFO 12508 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-30 12:41:29.869  INFO 12508 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-30 12:41:29.887  INFO 12508 --- [main] com.tttn.saleweb.SalewebApplication      : Started SalewebApplication in 5.348 seconds (JVM running for 6.311)
+2022-07-30 12:42:25.791  INFO 12508 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-30 12:42:25.791  INFO 12508 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-30 12:42:25.793  INFO 12508 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-07-30 12:42:27.003  WARN 12508 --- [http-nio-8080-exec-2] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:27.197  WARN 12508 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:42:27.197  WARN 12508 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:27.636  WARN 12508 --- [http-nio-8080-exec-2] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:27.648  WARN 12508 --- [http-nio-8080-exec-1] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:27.657  WARN 12508 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:42:27.657  WARN 12508 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:27.660  WARN 12508 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:42:27.660  WARN 12508 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:27.677  WARN 12508 --- [http-nio-8080-exec-1] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:27.687  WARN 12508 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:42:27.687  WARN 12508 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:28.247  WARN 12508 --- [http-nio-8080-exec-4] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:28.257  WARN 12508 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:42:28.257  WARN 12508 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:28.271  WARN 12508 --- [http-nio-8080-exec-4] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:28.281  WARN 12508 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:42:28.281  WARN 12508 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:30.127  WARN 12508 --- [http-nio-8080-exec-5] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:30.137  WARN 12508 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:42:30.137  WARN 12508 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:30.149  WARN 12508 --- [http-nio-8080-exec-5] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:30.157  WARN 12508 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:42:30.158  WARN 12508 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:31.439  WARN 12508 --- [http-nio-8080-exec-6] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:31.450  WARN 12508 --- [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:42:31.450  WARN 12508 --- [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:32.199  WARN 12508 --- [http-nio-8080-exec-7] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:32.206  WARN 12508 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:42:32.206  WARN 12508 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:33.248  WARN 12508 --- [http-nio-8080-exec-8] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:33.257  WARN 12508 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:42:33.257  WARN 12508 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:34.810  WARN 12508 --- [http-nio-8080-exec-9] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:34.818  WARN 12508 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:42:34.818  WARN 12508 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:34.898  WARN 12508 --- [http-nio-8080-exec-10] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:34.905  WARN 12508 --- [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:42:34.905  WARN 12508 --- [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:41.883  WARN 12508 --- [http-nio-8080-exec-1] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:41.900  WARN 12508 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:42:41.901  WARN 12508 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:41.920  WARN 12508 --- [http-nio-8080-exec-2] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:41.926  WARN 12508 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:42:41.927  WARN 12508 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:42.162  WARN 12508 --- [http-nio-8080-exec-2] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:42.168  WARN 12508 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:42:42.169  WARN 12508 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:50.909  WARN 12508 --- [http-nio-8080-exec-3] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:50.918  WARN 12508 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2022-07-30 12:42:50.919  WARN 12508 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:42:50.986  INFO 12508 --- [http-nio-8080-exec-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2022-07-30 12:42:51.016  INFO 12508 --- [http-nio-8080-exec-3] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#3030836d:0/SimpleConnection@53b099ab [delegate=amqp://guest@127.0.0.1:5672/, localPort= 52157]
+2022-07-30 12:42:51.040  INFO 12508 --- [http-nio-8080-exec-3] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (saleweb) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-30 12:42:51.069 ERROR 12508 --- [AMQP Connection 127.0.0.1:5672] o.s.a.r.c.CachingConnectionFactory       : Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'saleweb' in vhost '/': received 'false' but current is 'true', class-id=50, method-id=10)
+2022-07-30 12:42:52.075  INFO 12508 --- [http-nio-8080-exec-3] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (saleweb) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-30 12:42:52.076 ERROR 12508 --- [AMQP Connection 127.0.0.1:5672] o.s.a.r.c.CachingConnectionFactory       : Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'saleweb' in vhost '/': received 'false' but current is 'true', class-id=50, method-id=10)
+2022-07-30 12:42:54.089  INFO 12508 --- [http-nio-8080-exec-3] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (saleweb) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-30 12:42:54.091 ERROR 12508 --- [AMQP Connection 127.0.0.1:5672] o.s.a.r.c.CachingConnectionFactory       : Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'saleweb' in vhost '/': received 'false' but current is 'true', class-id=50, method-id=10)
+2022-07-30 12:42:58.093  INFO 12508 --- [http-nio-8080-exec-3] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (saleweb) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-30 12:42:58.095 ERROR 12508 --- [AMQP Connection 127.0.0.1:5672] o.s.a.r.c.CachingConnectionFactory       : Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'saleweb' in vhost '/': received 'false' but current is 'true', class-id=50, method-id=10)
+2022-07-30 12:43:03.104  INFO 12508 --- [http-nio-8080-exec-3] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (saleweb) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-30 12:43:03.106 ERROR 12508 --- [AMQP Connection 127.0.0.1:5672] o.s.a.r.c.CachingConnectionFactory       : Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'saleweb' in vhost '/': received 'false' but current is 'true', class-id=50, method-id=10)
+2022-07-30 12:43:03.120 ERROR 12508 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.amqp.AmqpIOException: java.io.IOException] with root cause
+
+com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'saleweb' in vhost '/': received 'false' but current is 'true', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:517) ~[amqp-client-5.14.2.jar:5.14.2]
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:341) ~[amqp-client-5.14.2.jar:5.14.2]
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:182) ~[amqp-client-5.14.2.jar:5.14.2]
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:114) ~[amqp-client-5.14.2.jar:5.14.2]
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:739) ~[amqp-client-5.14.2.jar:5.14.2]
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:47) ~[amqp-client-5.14.2.jar:5.14.2]
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:666) ~[amqp-client-5.14.2.jar:5.14.2]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+
+2022-07-30 12:44:54.131  INFO 12508 --- [SpringApplicationShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-07-30 12:52:33.958  INFO 8980 --- [main] com.tttn.saleweb.SalewebApplication      : Starting SalewebApplication using Java 1.8.0_45 on DESKTOP with PID 8980 (C:\Users\Administrator\Desktop\saleweb\saleweb_v1\target\classes started by Administrator in C:\Users\Administrator\Desktop\saleweb\saleweb_v1)
+2022-07-30 12:52:33.961  INFO 8980 --- [main] com.tttn.saleweb.SalewebApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 12:52:34.726  INFO 8980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-30 12:52:34.754  INFO 8980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 JPA repository interfaces.
+2022-07-30 12:52:35.300  INFO 8980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-30 12:52:35.311  INFO 8980 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 12:52:35.312  INFO 8980 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-30 12:52:35.793  INFO 8980 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-30 12:52:35.800  INFO 8980 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 12:52:35.800  INFO 8980 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1784 ms
+2022-07-30 12:52:36.034  INFO 8980 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-30 12:52:36.324  INFO 8980 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-30 12:52:36.567  WARN 8980 --- [main] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 12:52:36.596  INFO 8980 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect
+2022-07-30 12:52:37.346  INFO 8980 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-30 12:52:37.680  INFO 8980 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-07-30 12:52:37.881  INFO 8980 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-30 12:52:38.425  INFO 8980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-30 12:52:38.437  INFO 8980 --- [main] com.tttn.saleweb.SalewebApplication      : Started SalewebApplication in 5.148 seconds (JVM running for 6.208)
+2022-07-30 12:59:30.144  INFO 10632 --- [main] com.tttn.saleweb.SalewebApplication      : Starting SalewebApplication using Java 1.8.0_45 on DESKTOP with PID 10632 (C:\Users\Administrator\Desktop\saleweb_v1\target\classes started by Administrator in C:\Users\Administrator\Desktop\saleweb_v1)
+2022-07-30 12:59:30.149  INFO 10632 --- [main] com.tttn.saleweb.SalewebApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 12:59:32.397  INFO 10632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-30 12:59:32.410  INFO 10632 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 12:59:32.411  INFO 10632 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-30 12:59:33.081  INFO 10632 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-30 12:59:33.090  INFO 10632 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 12:59:33.090  INFO 10632 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2863 ms
+2022-07-30 12:59:33.183  WARN 10632 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryAdminController': Unsatisfied dependency expressed through field 'categoryService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryService': Unsatisfied dependency expressed through field 'dao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryDAO': Unsatisfied dependency expressed through field 'factory'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.hibernate.SessionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-07-30 12:59:33.188  INFO 10632 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-30 12:59:33.269  INFO 10632 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-30 12:59:33.335 ERROR 10632 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field factory in com.tttn.saleweb.dao.impl.GeneralDAO required a bean of type 'org.hibernate.SessionFactory' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.hibernate.SessionFactory' in your configuration.
+
+2022-07-30 13:01:16.954  INFO 12396 --- [main] com.tttn.saleweb.SalewebApplication      : Starting SalewebApplication using Java 1.8.0_45 on DESKTOP with PID 12396 (C:\Users\Administrator\Desktop\saleweb_v1\target\classes started by Administrator in C:\Users\Administrator\Desktop\saleweb_v1)
+2022-07-30 13:01:16.959  INFO 12396 --- [main] com.tttn.saleweb.SalewebApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 13:01:18.738  INFO 12396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-30 13:01:18.752  INFO 12396 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 13:01:18.752  INFO 12396 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-30 13:01:19.413  INFO 12396 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-30 13:01:19.420  INFO 12396 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 13:01:19.420  INFO 12396 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2383 ms
+2022-07-30 13:01:19.494  WARN 12396 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryAdminController': Unsatisfied dependency expressed through field 'categoryService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryService': Unsatisfied dependency expressed through field 'dao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryDAO': Unsatisfied dependency expressed through field 'factory'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.hibernate.SessionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-07-30 13:01:19.498  INFO 12396 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-30 13:01:19.586  INFO 12396 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-30 13:01:19.615 ERROR 12396 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field factory in com.tttn.saleweb.dao.impl.GeneralDAO required a bean of type 'org.hibernate.SessionFactory' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.hibernate.SessionFactory' in your configuration.
+
+2022-07-30 13:02:11.031  INFO 5396 --- [main] com.tttn.saleweb.SalewebApplication      : Starting SalewebApplication using Java 1.8.0_45 on DESKTOP with PID 5396 (C:\Users\Administrator\Desktop\saleweb_v1\target\classes started by Administrator in C:\Users\Administrator\Desktop\saleweb_v1)
+2022-07-30 13:02:11.037  INFO 5396 --- [main] com.tttn.saleweb.SalewebApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 13:02:12.099  INFO 5396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-30 13:02:12.132  INFO 5396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2022-07-30 13:02:12.757  INFO 5396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-30 13:02:12.767  INFO 5396 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 13:02:12.767  INFO 5396 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-30 13:02:13.305  INFO 5396 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-30 13:02:13.313  INFO 5396 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 13:02:13.313  INFO 5396 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2195 ms
+2022-07-30 13:02:13.541  INFO 5396 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-30 13:02:13.783  INFO 5396 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-30 13:02:14.024  WARN 5396 --- [main] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 13:02:14.052  INFO 5396 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect
+2022-07-30 13:02:14.800  INFO 5396 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-30 13:02:15.126  INFO 5396 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-07-30 13:02:15.325  INFO 5396 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-30 13:02:15.866  WARN 5396 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-07-30 13:02:15.871  INFO 5396 --- [main] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-07-30 13:02:15.876  INFO 5396 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-30 13:02:15.902  INFO 5396 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-30 13:02:15.921 ERROR 5396 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-07-30 13:02:45.053  INFO 3464 --- [main] com.tttn.saleweb.SalewebApplication      : Starting SalewebApplication using Java 1.8.0_45 on DESKTOP with PID 3464 (C:\Users\Administrator\Desktop\saleweb_v1\target\classes started by Administrator in C:\Users\Administrator\Desktop\saleweb_v1)
+2022-07-30 13:02:45.056  INFO 3464 --- [main] com.tttn.saleweb.SalewebApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 13:02:45.930  INFO 3464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-30 13:02:45.966  INFO 3464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 JPA repository interfaces.
+2022-07-30 13:02:46.620  INFO 3464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-30 13:02:46.629  INFO 3464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 13:02:46.629  INFO 3464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-30 13:02:47.112  INFO 3464 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-30 13:02:47.129  INFO 3464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 13:02:47.129  INFO 3464 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2014 ms
+2022-07-30 13:02:47.345  INFO 3464 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-30 13:02:47.592  INFO 3464 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-30 13:02:47.831  WARN 3464 --- [main] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 13:02:47.858  INFO 3464 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect
+2022-07-30 13:02:48.619  INFO 3464 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-30 13:02:48.946  INFO 3464 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-07-30 13:02:49.146  INFO 3464 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-30 13:02:49.796  INFO 3464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-30 13:02:49.808  INFO 3464 --- [main] com.tttn.saleweb.SalewebApplication      : Started SalewebApplication in 5.477 seconds (JVM running for 6.476)
+2022-07-30 13:04:25.207  INFO 3464 --- [SpringApplicationShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-07-30 13:04:30.290  INFO 4172 --- [main] com.tttn.saleweb.SalewebApplication      : Starting SalewebApplication using Java 1.8.0_45 on DESKTOP with PID 4172 (C:\Users\Administrator\Desktop\saleweb_v1\target\classes started by Administrator in C:\Users\Administrator\Desktop\saleweb_v1)
+2022-07-30 13:04:30.293  INFO 4172 --- [main] com.tttn.saleweb.SalewebApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 13:04:30.963  INFO 4172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-30 13:04:30.989  INFO 4172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2022-07-30 13:04:31.501  INFO 4172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-30 13:04:31.510  INFO 4172 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 13:04:31.510  INFO 4172 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-30 13:04:31.982  INFO 4172 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-30 13:04:31.989  INFO 4172 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 13:04:31.989  INFO 4172 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1652 ms
+2022-07-30 13:04:32.222  INFO 4172 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-30 13:04:32.467  INFO 4172 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-30 13:04:32.720  WARN 4172 --- [main] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 13:04:32.763  INFO 4172 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect
+2022-07-30 13:04:33.593  INFO 4172 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-30 13:04:33.923  INFO 4172 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-07-30 13:04:34.126  INFO 4172 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-30 13:04:34.684  INFO 4172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-30 13:04:34.697  INFO 4172 --- [main] com.tttn.saleweb.SalewebApplication      : Started SalewebApplication in 5.061 seconds (JVM running for 6.041)
+2022-07-30 13:05:52.644  INFO 4172 --- [SpringApplicationShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-07-30 13:05:59.740  INFO 7772 --- [main] com.tttn.saleweb.SalewebApplication      : Starting SalewebApplication using Java 1.8.0_45 on DESKTOP with PID 7772 (C:\Users\Administrator\Desktop\saleweb_v1\target\classes started by Administrator in C:\Users\Administrator\Desktop\saleweb_v1)
+2022-07-30 13:05:59.743  INFO 7772 --- [main] com.tttn.saleweb.SalewebApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 13:06:00.493  INFO 7772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-30 13:06:00.522  INFO 7772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 JPA repository interfaces.
+2022-07-30 13:06:01.032  INFO 7772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-30 13:06:01.041  INFO 7772 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 13:06:01.041  INFO 7772 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-30 13:06:01.501  INFO 7772 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-30 13:06:01.508  INFO 7772 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 13:06:01.508  INFO 7772 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1715 ms
+2022-07-30 13:06:01.739  INFO 7772 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-30 13:06:01.985  INFO 7772 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-30 13:06:02.228  WARN 7772 --- [main] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 13:06:02.254  INFO 7772 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect
+2022-07-30 13:06:03.009  INFO 7772 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-30 13:06:03.336  INFO 7772 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-07-30 13:06:03.550  INFO 7772 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-30 13:06:04.121  INFO 7772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-30 13:06:04.131  INFO 7772 --- [main] com.tttn.saleweb.SalewebApplication      : Started SalewebApplication in 5.046 seconds (JVM running for 6.128)
+2022-07-30 13:15:25.238  INFO 7772 --- [SpringApplicationShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-07-30 13:15:31.015  INFO 11896 --- [main] com.tttn.saleweb.SalewebApplication      : Starting SalewebApplication using Java 1.8.0_45 on DESKTOP with PID 11896 (C:\Users\Administrator\Desktop\saleweb_v1\target\classes started by Administrator in C:\Users\Administrator\Desktop\saleweb_v1)
+2022-07-30 13:15:31.019  INFO 11896 --- [main] com.tttn.saleweb.SalewebApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 13:15:31.798  INFO 11896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-30 13:15:31.827  INFO 11896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2022-07-30 13:15:32.522  INFO 11896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-30 13:15:32.536  INFO 11896 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 13:15:32.537  INFO 11896 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-30 13:15:33.202  INFO 11896 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-30 13:15:33.212  INFO 11896 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 13:15:33.212  INFO 11896 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2138 ms
+2022-07-30 13:15:33.513  INFO 11896 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-30 13:15:33.842  INFO 11896 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-30 13:15:34.164  WARN 11896 --- [main] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 13:15:34.197  INFO 11896 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect
+2022-07-30 13:15:35.110  INFO 11896 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-30 13:15:35.429  INFO 11896 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-07-30 13:15:35.632  INFO 11896 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-30 13:15:36.211  INFO 11896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-30 13:15:36.222  INFO 11896 --- [main] com.tttn.saleweb.SalewebApplication      : Started SalewebApplication in 5.915 seconds (JVM running for 6.899)
+2022-07-30 13:21:14.869  INFO 11896 --- [SpringApplicationShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-07-30 13:21:19.934  INFO 9864 --- [main] com.tttn.saleweb.SalewebApplication      : Starting SalewebApplication using Java 1.8.0_45 on DESKTOP with PID 9864 (C:\Users\Administrator\Desktop\saleweb_v1\target\classes started by Administrator in C:\Users\Administrator\Desktop\saleweb_v1)
+2022-07-30 13:21:19.937  INFO 9864 --- [main] com.tttn.saleweb.SalewebApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 13:21:20.663  INFO 9864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-30 13:21:20.691  INFO 9864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2022-07-30 13:21:21.195  INFO 9864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-30 13:21:21.204  INFO 9864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 13:21:21.204  INFO 9864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-30 13:21:21.671  INFO 9864 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-30 13:21:21.678  INFO 9864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 13:21:21.678  INFO 9864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1687 ms
+2022-07-30 13:21:21.891  INFO 9864 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-30 13:21:22.158  INFO 9864 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-30 13:21:22.401  WARN 9864 --- [main] c.m.s.jdbc.internals.TDS.Channel         : TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2022-07-30 13:21:22.430  INFO 9864 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect
+2022-07-30 13:21:23.174  INFO 9864 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-30 13:21:23.476  INFO 9864 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-07-30 13:21:23.675  INFO 9864 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-30 13:21:24.254  INFO 9864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-30 13:21:24.266  INFO 9864 --- [main] com.tttn.saleweb.SalewebApplication      : Started SalewebApplication in 4.965 seconds (JVM running for 5.957)
+2022-07-30 13:28:19.385  INFO 9864 --- [SpringApplicationShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
